@@ -27,6 +27,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 }
 
 /* profile section*/
+.container .profile .block2-left h4{
+	font-style: italic; color: #ff0000;
+}
 .container .profile{
 	border-bottom: 2px solid gray; padding: 10px;
 }
@@ -39,6 +42,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 }
 
 /*skills section*/
+.container .skill .block3-left h4{
+	font-style: italic; color: #ff0000;
+}
 .container .skill{
 	border-bottom: 2px solid gray; padding: 10px;
 }
@@ -53,6 +59,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 }
 
 /*technical section*/
+.container .technical .block4-left h4{
+	font-style: italic; color: #ff0000;
+}
 .container .technical{
 	border-bottom: 2px solid gray; padding: 10px;
 }
@@ -68,6 +77,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 
 
 /*experience section*/
+.container .experience .block5-left h4{
+	font-style: italic; color: #ff0000;
+}
 .container .experience h5 {
 	margin: 5px 0;
 }
@@ -91,6 +103,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 }
 
 /*education section*/
+.container .education .block7-left h4{
+	font-style: italic; color: #ff0000;
+}
 .container .education{
 	border-bottom: 2px solid gray; padding: 10px;
 }
