@@ -1,0 +1,115 @@
+/*global declaration*/
+
+*{
+	margin: 0; padding: 0;list-style-type: none; 
+}
+.cf{
+	clear: both;
+}
+
+body { font-family: 'Lato', sans-serif; font-size: 18px; }
+
+/*main styles*/
+.container { max-width: 800px; margin: 10px auto; padding: 10px 25px; background-color: #eee; border-top: 5px solid gray; border-bottom: 5px solid gray; }
+
+/*aboutme section*/
+.container .img-left img{
+	border-radius: 100px; height: 150px; width: 150px; display: block; margin-left: auto; margin-right: auto;
+ }
+.container .aboutme{
+	border-bottom: 2px solid gray; padding-bottom: 10px; padding: 10px; 
+}
+.container .aboutme .block1-left{
+	float: left; margin: 0 0 15px 0; width: 350px;
+}
+.container .aboutme .block1-right{
+	    float: right; width: 350px; margin: 0 0 15px 0; padding-right: 40px; text-align: right;
+}
+
+/* profile section*/
+.container .profile{
+	border-bottom: 2px solid gray; padding: 10px;
+}
+.container .profile .block2-left{
+	float: left; margin: 15px; 
+}
+
+.container .profile .block2-right{
+	float: right;  margin: 0 0 15px 0; width: 600px;
+}
+
+/*skills section*/
+.container .skill{
+	border-bottom: 2px solid gray; padding: 10px;
+}
+.container .skill .block3-left{
+	float: left; margin: 40px 40px 40px 15px;
+}
+.container .skill .block3-right {
+	float: right; width:600px; padding: 0 0 10px 0; 
+}
+.container .skill .block3-right ul {
+	float: left; width: 180px; margin-right: 20px;
+}
+
+/*technical section*/
+.container .technical{
+	border-bottom: 2px solid gray; padding: 10px;
+}
+.container .technical .block4-left{
+	float: left;margin: 15px;
+}
+.container .technical .block4-right{
+	float: right;width: 600px;
+}
+.container .technical .block4-right ul{
+	float: left;width: 180px;
+}
+
+
+/*experience section*/
+.container .experience h5 {
+	margin: 5px 0;
+}
+.container .experience .block5-left{
+	float: left; margin: 15px;
+}
+.container .experience .block5-right {
+	float: right;width: 600px;
+}
+.container .experience .block5-right{
+	float: right;width: 600px;
+}
+.container .experience{
+	border-bottom: 2px solid gray; padding: 10px;
+}
+.container .experience .block6-right{
+	float: left; margin: 40px; 
+}
+.container .experience .block6-right {
+	float: right;width: 555px; border-top: 2px solid gray; margin: 30px 40px 40px 40px; padding: 20px 0 0 0;
+}
+
+/*education section*/
+.container .education{
+	border-bottom: 2px solid gray; padding: 10px;
+}
+.container .education .block7-left{
+	float: left; margin: 40px; 
+}
+.container .education .block7-right {
+	float: right; width: 600px; margin-top: 20px;
+}
+
+.container .footer{
+	float: right; margin:10px;margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
