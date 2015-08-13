@@ -16,19 +16,23 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 .container .img-left img{
 	border-radius: 100px; height: 150px; width: 150px; display: block; margin-left: auto; margin-right: auto;
  }
-.container .aboutme{
+.container .index{
 	border-bottom: 2px solid gray; padding-bottom: 10px; padding: 10px; 
 }
-.container .aboutme .block1-left{
+.container .index .block1-right .color{
+	color:#9E1603;
+}
+.container .index .block1-left {
 	float: left; margin: 0 0 15px 0; width: 350px;
 }
-.container .aboutme .block1-right{
+
+.container .index .block1-right{
 	    float: right; width: 350px; margin: 0 0 15px 0; padding-right: 40px; text-align: right;
 }
 
 /* profile section*/
 .container .profile .block2-left h4{
-	font-style: italic; color: #ff0000;
+	font-style: italic; color: #9E1603;
 }
 .container .profile{
 	border-bottom: 2px solid gray; padding: 10px;
@@ -43,7 +47,7 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 
 /*skills section*/
 .container .skill .block3-left h4{
-	font-style: italic; color: #ff0000;
+	font-style: italic; color: #9E1603;
 }
 .container .skill{
 	border-bottom: 2px solid gray; padding: 10px;
@@ -60,7 +64,7 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 
 /*technical section*/
 .container .technical .block4-left h4{
-	font-style: italic; color: #ff0000;
+	font-style: italic; color: #9E1603;
 }
 .container .technical{
 	border-bottom: 2px solid gray; padding: 10px;
@@ -78,10 +82,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 
 /*experience section*/
 .container .experience .block5-left h4{
-	font-style: italic; color: #ff0000;
+	font-style: italic; color: #9E1603;
 }
 .container .experience h5 {
-	margin: 5px 0;
 }
 .container .experience .block5-left{
 	float: left; margin: 15px;
@@ -104,13 +107,13 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 
 /*education section*/
 .container .education .block7-left h4{
-	font-style: italic; color: #ff0000;
+	font-style: italic; color: #9E1603;
 }
 .container .education{
 	border-bottom: 2px solid gray; padding: 10px;
 }
 .container .education .block7-left{
-	float: left; margin: 40px; 
+	float: left; margin: 40px; margin: 15px 0 0 15px;
 }
 .container .education .block7-right {
 	float: right; width: 600px; margin-top: 20px;
@@ -119,7 +122,9 @@ body { font-family: 'Lato', sans-serif; font-size: 18px; }
 .container .footer{
 	float: right; margin:10px;margin-right: 200px;
 }
-
+.container .footer .browncolor{
+	color: #9E1603;
+}
 
 
 
